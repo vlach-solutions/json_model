@@ -1,0 +1,14 @@
+<mvc:View controllerName="jsonmodel.controller.Mainview"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">        
+            <Title text="Mainview" titleStyle="H1"></Title>
+            <VBox >
+            <Text text="This is your Main page."/>
+            <List id="carrierList" headerText="Daten" items="{myData2>/Bike}">
+            <StandardListItem id="listItemTemplate" title="{myData2>Model}" description="{myData2>Category}"
+            />
+            </List>                    
+            </VBox>        
+    </Page>
+</mvc:View>

@@ -1,0 +1,54 @@
+{
+  "Bike": [
+    {
+      "BikeId": "B001",
+      "Model": "Trek Marlin 7",
+      "Category": "Mountainbike",
+      "Brand": "Trek",
+      "Price": 1099.00,
+      "Currency": "EUR",
+      "Year": 2025,
+      "InStock": true
+    },
+    {
+      "BikeId": "B002",
+      "Model": "Canyon Endurace CF 7",
+      "Category": "Rennrad",
+      "Brand": "Canyon",
+      "Price": 2199.00,
+      "Currency": "EUR",
+      "Year": 2026,
+      "InStock": true
+    },
+    {
+      "BikeId": "B003",
+      "Model": "Cube Kathmandu Hybrid",
+      "Category": "E-Bike",
+      "Brand": "Cube",
+      "Price": 3499.00,
+      "Currency": "EUR",
+      "Year": 2026,
+      "InStock": false
+    },
+    {
+      "BikeId": "B004",
+      "Model": "Specialized Sirrus X 3.0",
+      "Category": "Fitnessbike",
+      "Brand": "Specialized",
+      "Price": 1249.00,
+      "Currency": "EUR",
+      "Year": 2025,
+      "InStock": true
+    },
+    {
+      "BikeId": "B005",
+      "Model": "Woom 4",
+      "Category": "Kinderrad",
+      "Brand": "Woom",
+      "Price": 569.00,
+      "Currency": "EUR",
+      "Year": 2026,
+      "InStock": true
+    }
+  ]
+}
