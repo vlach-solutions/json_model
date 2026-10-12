@@ -84,9 +84,9 @@ export default class Component extends BaseComponent {
         //let oModel = new JSONModel(oData); //VV: Wir laden aus den Zeilen 29 bis 80
         
         //2. Möglichkeit
-        let oModel = new JSONModel("/model/bikes.json"); //VV: Einmal laden wir Model hier und unter 3. in der manifest.json. (Um beides zu probieren.)
+        let oModel = new JSONModel("/model/bikes.json"); //VV: Wir laden das Model hier in der Component.ts aus der Datei und unter 3. in der manifest.json. (Um beides zu probieren.)
         this.setModel(oModel, "myData"); //VV: myData kommt aus der Component.ts und myData2 aus der manifest.json.
 
-        //3. Möglichkeit: Wenn es in der manifest.json steht, dann brauchen wir es hier nicht mehr zu machen. (myData2). SCHAU IN DER VIEW, OB myData oder myData2.
+        //3. Möglichkeit: Wenn es in der manifest.json steht, dann brauchen wir es hier in der Component.ts nicht mehr zu machen. (myData2). SCHAU IN DER VIEW, ob myData oder myData2.
 	}
 }
