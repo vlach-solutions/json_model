@@ -1,4 +1,4 @@
-import Controller from "sap/ui/core/mvc/Controller"; //Der Webhook sollte noch funktionieren!
+import Controller from "sap/ui/core/mvc/Controller"; //Der Webhook sollte noch funktionieren! V2
 
 /**
  * @namespace jsonmodel.controller
